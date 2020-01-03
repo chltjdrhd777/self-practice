@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+
+.background{
+    background: 
+        linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/346768/pexels-photo-346768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+}
+
+.what a{
+    text-decoration:none;
+    color:white;
+    font-style:italic;
+}
+
+.what li{
+    height:180px;
+}
+
+.what{
+    font-size: 100px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    height:1000px;
+}
